@@ -82,7 +82,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.admindocs',
     'django.contrib.sites',
-    'django.contrib.comments',
     'laconicurls',
 )
 
@@ -95,5 +94,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 
-TEST_RUNNER = 'django.test.simple.DjangoTestSuiteRunner'
+#TEST_RUNNER = 'django.test.simple.DjangoTestSuiteRunner'
+TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
