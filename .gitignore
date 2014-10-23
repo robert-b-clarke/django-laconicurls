@@ -1,0 +1,11 @@
+/.tox/
+build
+dist
+*.pyc
+*.swp
+.DS_Store
+MANIFEST
+__pycache__
+/*.egg-info/
+/coverage/
+/.coverage
