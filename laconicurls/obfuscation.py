@@ -1,10 +1,7 @@
 #The base27 idea comes from this guy who was using base31 to cut out vowels.
-#I've also removed the 4 numbers that look like vowels to prevent any intentional calculator gags
+#I've also removed the 4 numbers that look like vowels to prevent any unintentional calculator gags
 #http://jeffreypratt.net/safely-base-36-encoding-integers.html
 BASE27_ALPHABET = '256789BCDFGHJKLMNPQRSTVWXYZ'
-
-from urlparse import urlparse
-import math
 
 def base27_encode(n):
     """Encode a number in the unoffensive base 27 format
@@ -22,7 +19,7 @@ def base27_encode(n):
 
     while (n > 0):
         result = BASE27_ALPHABET[n % len(BASE27_ALPHABET)] + result
-        n /= len(BASE27_ALPHABET)
+        n = int(n / len(BASE27_ALPHABET))
 
     return result
 
