@@ -18,6 +18,7 @@ setup(
     url='http://redanorak.co.uk/',
     author='Robert Clarke',
     author_email='rob@redanorak.co.uk',
+    test_suite='laconicurls.runtests.runtests',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
