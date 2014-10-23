@@ -2,6 +2,9 @@
 Django Laconic URLS
 ===================
 
+.. image:: https://travis-ci.org/robert-b-clarke/django-laconicurls.svg?branch=master
+    :target: https://travis-ci.org/robert-b-clarke/django-laconicurls
+
 Another URL shortner for Django?
 --------------------------------
 
