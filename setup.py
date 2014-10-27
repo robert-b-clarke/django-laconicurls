@@ -15,7 +15,7 @@ setup(
     license='BSD License',
     description='A generic url shortner for content in a Django ORM',
     long_description=README,
-    url='http://redanorak.co.uk/',
+    url='https://github.com/robert-b-clarke/django-laconicurls',
     author='Robert Clarke',
     author_email='rob@redanorak.co.uk',
     test_suite='laconicurls.runtests.runtests',
