@@ -5,6 +5,10 @@ Django Laconic URLS
 .. image:: https://travis-ci.org/robert-b-clarke/django-laconicurls.svg?branch=master
     :target: https://travis-ci.org/robert-b-clarke/django-laconicurls
 
+.. image:: https://pypip.in/v/django-laconicurls/badge.png
+    :target: https://pypi.python.org/pypi//django-laconicurls/
+    :alt: Downloads
+
 Another URL shortner for Django?
 --------------------------------
 
